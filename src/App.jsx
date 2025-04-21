@@ -13,12 +13,6 @@ function App() {
       setTheme("light");
       document.documentElement.setAttribute("light");
     }
-
-    // setTheme(theme === "light" ? "dark" : "light");
-    // document.documentElement.setAttribute(
-    //   "data-theme",
-    //   theme === "light" ? "dark" : "light"
-    // );
   };
 
   return (
