@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import ProjectCard from "./components/Projects";
 import SocialButton from "./components/SocialButton";
+import ContactForm from "./components/ContactForm";
 
 const projectList = [
   {
@@ -115,6 +116,8 @@ function App() {
               </div>
             }
           />
+
+          <Route path="/contact" element={<ContactForm />} />
         </Routes>
 
         <button onClick={toggleTheme} className="btn btn-outline mt-4">
